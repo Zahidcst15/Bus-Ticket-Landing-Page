@@ -12,9 +12,106 @@
     <link rel="stylesheet" href="style/style.css">
 
 </head>
-<body>
-    <header>
+<body class="font-raleway mx-5">
+    <header class="container mx-auto">
+         <nav class="py-8">
+            <div class="navbar bg-base-100 flex justify-between items-center">
+                <div class="">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Item 1</a></li>
+                      <li>
+                        <a>Parent</a>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class=" text-black text-3xl font-extrabold">C-line Ticket</a>
+                </div>
+                <div class=" hidden lg:flex">
+                  <ul class="flex gap-10 text-[#030712B3] font-medium text-xs">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="">
+                  <a class="btn border-[#1DD100] text-[#1DD100]">Bus <img src="images/bus-icon.png" alt="bus-icon.png"></a>
+                </div>
+              </div>
+         </nav>
+         <!-- banner part start -->
+         <!-- main container -->
+         <div>
+            <!-- banner container -->
+          <div class="relative">
+            <div class="hero p-40 rounded-3xl" style="background-image: url(images/banner.png);">
+              <div class=" rounded-3xl"></div>
+              <div class="hero-content text-center text-neutral-content">
+                <div class="">
+                  <h1 class=" text-6xl font-extrabold">End-to-End Travel with</h1>
+                  <h2 class=" my-10 text-[#1DD100] text-6xl font-extrabold">C-LINE Paribahan</h2>
+                  <p class=" font-inter text-xs">Yes, you can run unit tests and view the results directly within the <br>app. The integrated testing features allow for a streamlined .</p>
+                  <button class="btn my-10 bg-[#1DD100] border-none text-black font-bold text-xl">Buy Tickets</button>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- card container -->
+          <div class="flex flex-row row-span-3 justify-center gap-5 absolute translate-y-[-87px] translate-x-[288px]">
+            <!-- Card one -->
+            <div class="card p-4 bg-base-100 shadow-xl rounded-3xl border-b-8 border-[#1DD100]">
+              <div class="card-body">
+                <div class="flex justify-center items-center">
+                  <div class="mr-4">
+                    <img src="images/people.png" alt="people.png">
+                  </div>
+                   <div>
+                    <h2 class="card-title mb-2">500K+</h2>
+                    <p>Registered users</p>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card two -->
+            <div class="card p-4 bg-base-100 shadow-xl rounded-3xl border-b-8 border-[#1DD100]">
+              <div class="card-body">
+                <div class="flex justify-center items-center">
+                  <div class="mr-4">
+                    <img src="images/ticket-cupon.png" alt="ticket-cupon.png">
+                  </div>
+                   <div>
+                    <h2 class="card-title mb-2">1.7 lacks</h2>
+                    <p>Tickets sold</p>
+                   </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card three -->
+            <div class="card p-4 bg-base-100 shadow-xl rounded-3xl border-b-8 border-[#1DD100]">
+              <div class="card-body">
+                <div class="flex justify-center items-center">
+                  <div class="mr-4">
+                    <img src="images/stoppage.png" alt="stoppage.png">
+                  </div>
+                   <div>
+                    <h2 class="card-title mb-2">80K+</h2>
+                    <p>Rental partners</p>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
     </header>
 
     <main>
